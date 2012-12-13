@@ -1,0 +1,343 @@
+@charset "utf-8";
+/* CSS Document */
+/* Este es el header*/
+
+#HeraderTitle{
+	background-color: #66FFFF;
+	border-bottom:1px solid #0099FF;
+    font-style:normal;
+    font-size:24px;
+	text-align:center;
+}
+
+/** Este es la parte del login de usuario */
+body{
+  background-color:#85CFF1;
+ }
+ 
+ /* Esta es la parte donde se hace el estilo del logueo*/
+#LoginUsuario{
+
+	background-color:#D9EDF7; /** color de fondo*/
+	width:800px; /* El ancho*/
+	height:auto; /* alto*/
+	border:1px solid #0099FF; /* contorno*/
+	margin:auto; /* El centrado*/
+	_margin:auto;
+
+
+}
+#Login{
+    background-color:#FFFFCC;
+	border:1px solid #FFD40B;
+	width:216px;
+	height:120px;
+	margin-left:300px;
+	margin-bottom:50px;
+	margin-top:50px;
+/*    display:inline;*/
+	
+
+}
+#LoginUsuario #Login .TitleTable{
+    font-size:18px;
+	text-align:center;
+	color:#000000;
+	border:1px solid #FF6600;
+	background-color:#FFCC66;
+	margin-top:150px;
+}
+#LoginUsuario #Login .subtitle{
+    font-style:italic;
+	font-size:16px;
+	color:#000000;
+
+}
+/** Esta es la parte del footer*/
+#LoginUsuario {
+	background-color:#E5F4FD;
+	border-bottom:1px solid #0099FF;
+    font-style:normal;
+    font-size:24px;
+	text-align:center;
+}
+/** Este es el estilo para el error*/
+#LoginUsuario #error{
+	border:1px solid #FF0000;
+	font:Verdana, Arial, Helvetica, sans-serif bold;
+	font-size:14px;
+	color:#663300;
+	background-color:#FFCCCC;
+	width:240px;
+	height:40px;
+	margin-left:300px;
+	margin-bottom:20px;
+	margin-top:20px;
+
+}
+#LoginUsuario #FooterTitle{
+    font-size:18px;
+	text-align:center;
+	color:#000000;
+	border:1px solid #FF6600;
+	background-color:#FFCC66;
+	margin-top:70px;
+}
+
+/** datos de usuario */
+#UserData {
+   background-color:#E5F7FD;
+   font-size:14px;
+   text-align:left;
+   border-bottom:1px solid #7FD7F7;
+   color:#663300;
+   float:left;
+}
+
+
+#Salir a:hover{
+	
+	font-style:italic;
+	color:#663300;
+   
+}
+#Salir a{
+	text-decoration:none;
+	color:#669900;
+}
+#Salir{
+	background-color:#E5F7FD;
+	font-size:14px;
+	border-bottom:1px solid #7FD7F7;
+	text-decoration:none;
+	text-align:right;
+}
+
+#FooterIn{
+    background-color:#FFFFCC;
+	border:1px solid #FFD40B;
+	font-size:12px;
+	font-style:italic;
+	margin-top:0px;
+	color:#663300; 
+}
+/** Esta es la lista de modulos que hay */
+#TitleModulo{
+	font-size:14px;
+	color:#336600;
+	margin-left:0px;
+	text-align:left;
+	font-style:normal;
+}
+#ListaSeleccion{
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:-50px;
+}
+
+#ListaSeleccion li a{
+	 font-family:"Trebuchet MS",arial,verdana,helvetica;
+	 text-decoration:none;
+	 background:#ff9; 
+	 color:#000000;
+	 padding:4px 10px;
+	 font-size:12px;
+	 display:block;
+	 width:200px;
+	 text-align:left;
+	 margin-left:280px;
+	 border:1px solid black;
+	 margin-top:1px;
+}
+#ListaSeleccion ul{
+	list-style-type:none;
+	padding:0px;
+	margin-left:0px;
+}
+#ListaSeleccion li a:hover{
+	background:#fc0;
+	color:#fff;
+}
+#cuerpoModulo{
+	background-color:#E5F4FD;
+	border:1px solid #0099FF;
+    font-style:normal;
+    font-size:24px;
+	text-align:center;
+	width:820px;
+	height:auto;
+	/*margin-left:150px;*/
+	margin:0 auto 0 auto; 
+
+}
+
+#TableModulo table{
+	border:1px solid #FF9900;
+	width:auto;
+	height:auto;
+	margin-top:50px;
+	margin-bottom:50px;
+	background-color:#D8E9EC;
+	font-size:14px;
+}
+#TableModulo th{
+	border:1px solid #FF6600;
+	background-color:#FFCC66;
+	font-size:14px;
+	text-align:left;
+}
+#TableModulo td{
+	border:1px solid #FF9900;	
+}
+
+#TableModulo2 table{
+	border:1px solid #000000;
+	width:auto;
+	height:auto;
+	margin-top:5px;
+	margin-bottom:0px;
+	background-color:#D8E9EC;
+	font-size:12px;
+}
+#TableModulo2 th{
+	border:1px solid #000000;
+	background-color:#FFFFCC;
+	font-size:12px;
+	text-align:left;
+	}
+#TableModulo2 td{
+	border:1px solid #000000;	
+}
+#AtrasBoton{
+     text-align:right;
+	 font-size:14px;
+	 
+}
+#AtrasBoton a{
+	text-decoration:none;
+	color:#336600;
+	font-size:16px;
+}
+#AtrasBoton a:hover{
+	color:#663300;
+	font-style:italic;
+
+}
+/** Este es el cuerpo de ver modulo */
+#CueproVerMod{
+   font-size:14px;
+   text-align:left;
+   background-color:#D8E9EC;
+   border:1px solid #FF9900;
+   width:650px;;
+   height:auto;
+   margin-bottom:50px;
+   margin-top:40px;
+   margin-left:50px;
+}
+#CueproVerMod a{
+	color:#336600;
+	text-decoration:none;
+}
+#CueproVerMod a:hover{
+	color:#663300;
+	font-style:italic;
+
+} 
+/** fin*/
+/** Esta es la parte de gral_man_usr.php */
+#GeneralManUsuario{
+	width:auto;
+	font-size:14px;
+	text-align:left;
+	border:1px solid #0099FF;
+	background-color:#D8E9EC;
+	padding-top:10px;
+	padding-left:300px;
+	margin-bottom:50px;
+	margin-top:20px;
+}
+/** Esta es la parte de solic_mante_aa.php */
+#GeneralManSolicaa{
+	width:800px;
+	font-size:14px;
+	text-align:left;
+	margin:auto;
+	border:1px solid #0099FF;
+	background-color:#D8E9EC;
+	padding-top:10px;
+	padding-left:10px;
+	margin-bottom:50px;
+	margin-top:20px;
+}
+
+
+
+
+/** Esta es la tabla d de Consultar Usuarios*/
+#TableUsuario table{
+	font-size:12px;
+	background-color:#D8E9EC;
+	border:1px solid #FF9900;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#TableUsuario th{
+	background-color:#FFCC66;
+	border:1px solid #FF6600;
+}
+#TableUsuario td{
+	border:1px solid #FF9900;
+}
+
+#FooterTable {
+	font-size:14px;
+	color:#663300;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+#FooterTable a{
+	text-decoration:none;
+	color:#336600;
+}
+
+#FooterTable a:hover{
+	
+	color:#663300;
+	font-style:italic;
+}
+#GeneralManUsuarioM{
+	width:550px;
+	font-size:14px;
+	text-align:left;
+	margin:auto;
+	border:1px solid #0099FF;
+	background-color:#D8E9EC;
+	padding-top:10px;
+	padding-left:10px;
+	margin-bottom:50px;
+	margin-top:20px;
+}
+#GeneralManCliente{
+	width:auto;
+	font-size:14px;
+	text-align:left;
+	margin:auto;
+	border:1px solid #0099FF;
+	background-color:#D8E9EC;
+	padding-top:10px;
+	padding-left:10px;
+	margin-bottom:50px;
+	margin-top:20px;
+}
+#cuerpoCliente{
+	background-color:#E5F4FD;
+	border:1px solid #0099FF;
+    font-style:normal;
+    font-size:24px;
+	text-align:center;
+	width:750px;
+	height:auto;
+	margin-left:80px;
+
+}
