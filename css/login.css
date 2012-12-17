@@ -1,0 +1,100 @@
+/* Este es el estilo de la pagina login*/
+#msg_error{
+	font-size: 11px;
+	border: solid 1px #CCC;
+	margin-left: 3px;
+	margin-right: 3px;
+	background-color: #FFC;
+	text-indent: 0px;
+	line-height: 0px;
+	padding-top: -10px;
+	padding-bottom: 12px;
+}
+
+#Login h4{
+	color:#3C3C3C;
+	margin-top:10px;
+	margin-bottom:0px;
+	text-align:center;
+	font-size:16px;
+	margin-bottom:10px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+#Login hr{
+	border:1px dashed #CCC;
+	
+}
+
+ /* Esta es la parte donde se hace el estilo del logueo*/
+#LoginUsuario{
+	width:800px; /* El ancho*/
+	height:auto; /* alto*/
+	margin:auto; /* El centrado*/
+	_margin:auto;
+
+
+}
+#Login{
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+	-webkit-box-shadow: 0px 2px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    0px 2px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         0px 2px 5px rgba(50, 50, 50, 0.77);
+	border:1px solid #3E3E3E;
+	width:350px;
+	height:auto;
+	margin:0 auto;
+	margin-top:10%;
+/*    display:inline;*/
+	
+
+}
+#LoginUsuario #Login .TitleTable{
+    font-size:18px;
+	text-align:center;
+	color:#000000;
+	border:1px solid #FF6600;
+	background-color:#FFCC66;
+	margin-top:150px;
+}
+#LoginUsuario #Login .subtitle{
+	font-size:16px;
+	color:#000000;
+
+}
+/** Esta es la parte del footer*/
+#LoginUsuario {
+    font-style:normal;
+    font-size:16px;
+	text-align:center;
+}
+/** Este es el estilo para el error*/
+#LoginUsuario #error{
+	border:1px solid #FF0000;
+	font:Verdana, Arial, Helvetica, sans-serif bold;
+	font-size:14px;
+	color:#663300;
+	background-color:#FFCCCC;
+	width:240px;
+	height:40px;
+	margin-left:300px;
+	margin-bottom:20px;
+	margin-top:20px;
+
+}
+#LoginUsuario #FooterTitle{
+    font-size:18px;
+	text-align:center;
+	color:#000000;
+	border:1px solid #FF6600;
+	background-color:#FFCC66;
+	margin-top:70px;
+}
+
+/** datos de usuario */
